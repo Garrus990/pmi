@@ -1,0 +1,25 @@
+name: pmi-2
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - jupyter
+  - jupyterlab
+  - python<3.9
+  - numpy
+  - pandas
+  - pip
+  - plotnine
+  - pyarrow
+  - scikit-learn
+  - scikit-optimize
+  - seaborn
+  - shap
+  - tqdm
+
+  - pip:
+    - missingpy
+    - nbstripout
+    - -e .
